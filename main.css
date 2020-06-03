@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: pink;
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-align: center;
+}
+.container{
+    display: flex;
+  background-color: white;
+  flex: 0 0 80%;
+  flex-direction: column;
+  align-items: center;
+}
+.button{
+    padding: 0.5rem 2rem;
+    font-size: large;
+    border-radius: 10px;
+    outline: none;
+    background-color: orange;
+    opacity: 0.7;
+    color: white;
+}
+.button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+blockquote{
+    border-left: 5px solid orange;
+    margin: 0.5rem;
+    padding: 3.5rem;
+    text-align: center;
+}
+.author{
+    color: orange;
+    text-align: center;
+}
